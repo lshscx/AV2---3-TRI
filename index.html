@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SNEAKERLAND</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho do site -->
+  <header>
+    <h1></h1>
+    <nav>
+        <a href="#nossos produtos">NOSSOS PRODUTOS</a>
+      <a href="#masculinos">MASCULINOS</a>
+      <a href="femininos">FEMININOS</a>
+      <a href="#produtos">PROMOÇÕES</a>
+      <a href="#contato">CONTATO</a>
+    </nav>
+  </header>
+
+  <!-- Seção de Produtos -->
+  <section id="produtos">
+    <h2 class="novidades">NOVIDADES DA LOJA</h2>
+    <div class="produto" data-name="Marrom amarelado" data-price="199.99">
+      <img src="tenis1.jpg" alt="Marrom amarelado">
+      <h3>  HOCKS BOLD BUCK</h3>
+      <p>R$480,99</p>
+      <button onclick="addToCart('Hocks Bold Buck', 480,99)">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto" data-name="ASICS GEL NYC" data-price="149.99">
+      <img src="tenis2.jpg" alt="Oyster grey">
+      <h3>ASICS GEL NYC</h3>
+      <p>R$899,00
+      </p>
+      <button onclick="addToCart('Asics Gel Nyc', 899.99)">Adicionar ao Carrinho</button>
+    </div>
+    <!-- Adicione mais produtos conforme necessário -->
+  </section>
+
+  <!-- Seção do Carrinho -->
+  <section id="carrinho">
+    <h2>Carrinho de Compras</h2>
+    <ul id="carrinho-itens"></ul>
+    <p id="total">Total: R$0,00</p>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
