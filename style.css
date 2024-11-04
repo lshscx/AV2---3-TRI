@@ -65,3 +65,10 @@
 .novidades{justify-content: center;
 display: flex;}  
   
+.produto-qix{
+  width: 15%
+}
+
+.produto-asics{
+  width: 25%
+}
