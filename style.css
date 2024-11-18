@@ -72,3 +72,13 @@ display: flex;}
 .produto-asics{
   width: 25%
 }
+
+
+CSS 
+.produto-hocks > div{
+  text-align: center;
+  width: 15%;
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius:
+}
