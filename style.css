@@ -10,7 +10,7 @@
   }
   
   header {
-    background-color: #ffffff;
+    background-color: #e2e2e2;
     color: #000000;
     padding: 1rem;
     text-align: center;
@@ -30,7 +30,7 @@
   }
   
   .produto {
-    background-color: #fff;
+    background-color: #ffffff;
     border: 1px solid #ddd;
     padding: 1rem;
     margin: 1rem;
@@ -84,6 +84,13 @@ display: flex;}
   transition: transform 0.3s ease;
 }
 
+.produto-hocks p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin: 8px 0;
+}
+
 .produto-qix {
   display: inline-block;
   width: 30%;
@@ -93,6 +100,14 @@ display: flex;}
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+}
+
+/* Preço */
+.produto-qix p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin: 8px 0;
 }
 
 .produto-asics {
@@ -106,6 +121,14 @@ display: flex;}
   transition: transform 0.3s ease;
 }
 
+/* Preço */
+.produto-asics p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin: 8px 0;
+}
+
 .produto-tesla {
   display: inline-block;
   width: 30%;
@@ -117,6 +140,14 @@ display: flex;}
   transition: transform 0.3s ease;
 }
 
+/* Preço */
+.produto-tesla p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin: 8px 0;
+}
+
 .produto-skyhand {
   display: inline-block;
   width: 30%;
@@ -126,4 +157,88 @@ display: flex;}
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+}
+
+/* Preço */
+.produto-skyhand p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin: 8px 0;
+}
+
+.produto-puma {
+  display: inline-block;
+  width: 30%;
+  padding: 1rem;
+  margin: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Preço */
+.produto-puma p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin: 8px 0;
+}
+
+.produto-adidas {
+  display: inline-block;
+  width: 30%;
+  padding: 1rem;
+  margin: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Preço */
+.produto-adidas p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin: 8px 0;
+}
+
+.produto-shox {
+  display: inline-block;
+  width: 30%;
+  padding: 1rem;
+  margin: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Preço */
+.produto-shox p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin: 8px 0;
+}
+
+.produto-nb530 {
+  display: inline-block;
+  width: 30%;
+  padding: 1rem;
+  margin: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Preço */
+.produto-nb530 p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin: 8px 0;
 }
