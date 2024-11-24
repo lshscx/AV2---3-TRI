@@ -242,3 +242,60 @@ display: flex;}
   color: #666;
   margin: 8px 0;
 }
+
+.produto-court {
+  display: inline-block;
+  width: 30%;
+  padding: 1rem;
+  margin: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Preço */
+.produto-court p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin: 8px 0;
+}
+
+.produto-chorao {
+  display: inline-block;
+  width: 30%;
+  padding: 1rem;
+  margin: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Preço */
+.produto-chorao p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin: 8px 0;
+}
+
+.produto-vans {
+  display: inline-block;
+  width: 30%;
+  padding: 1rem;
+  margin: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Preço */
+.produto-vans p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin: 8px 0;
+}
